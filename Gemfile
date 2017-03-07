@@ -12,6 +12,12 @@ gem 'jquery-ui-rails', '5.0.5'
 #active admin
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 gem 'activeadmin', '~> 1.0.0.pre4'
+
+#debugger
+gem 'pry-rails', '~> 0.3.5'
+
+#ignore
+gem 'dotenv-rails', '~> 2.2'
  
 
 
