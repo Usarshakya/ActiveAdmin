@@ -5,11 +5,14 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#plus integration
 gem 'devise', '~> 4.2'
+gem 'jquery-ui-rails'
 
 #active admin
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 gem 'activeadmin', '~> 1.0.0.pre4'
+ 
 
 
 
