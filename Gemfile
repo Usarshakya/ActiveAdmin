@@ -5,6 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'devise', '~> 4.2'
+
+#active admin
+gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
+gem 'activeadmin', '~> 1.0.0.pre4'
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
