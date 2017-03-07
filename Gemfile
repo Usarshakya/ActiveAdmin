@@ -7,7 +7,7 @@ end
 
 #plus integration
 gem 'devise', '~> 4.2'
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '5.0.5'
 
 #active admin
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
